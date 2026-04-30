@@ -32,4 +32,4 @@ jobs:
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: listing build file 
-      uses: ls target/*.jar
+      run: ls target/*.jar
