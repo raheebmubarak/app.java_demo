@@ -28,6 +28,9 @@ jobs:
     - name: Print App Name
       run: echo "${{ env.App }}"
 
+    - name: using context
+      run: echo ${{github.repository}}
+
     - name: Checkout code
       uses: actions/checkout@v4
 
