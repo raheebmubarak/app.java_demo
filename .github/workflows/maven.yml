@@ -23,7 +23,7 @@ jobs:
 
     steps:
     - name: Name added in the variables
-      run: ${{vars.Name}}
+      run: echo ${{vars.Name}}
     
     - name: Print App Name
       run: echo "${{ env.App }}"
