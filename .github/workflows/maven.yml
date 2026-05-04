@@ -24,7 +24,7 @@ jobs:
     steps:
 
     - uses: App name 
-      run: echo "${{App}}"
+      run: echo "${{env.App}}"
     - uses: actions/checkout@v4
     - name: Set up JDK 17
       uses: actions/setup-java@v4
